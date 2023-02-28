@@ -1,0 +1,11 @@
+.footer-links{
+    text-decoration:none;
+    color: #7DB9B6;
+    display: block;
+}
+
+.footer-links :hover{
+    color: #E96479;
+    text-decoration: underline;
+    
+}

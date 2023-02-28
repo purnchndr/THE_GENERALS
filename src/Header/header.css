@@ -1,0 +1,15 @@
+.main-header{
+    background-color: var(--color-white );
+    height: 10vh;
+    position: fixed;
+    top: 2%;
+    width: 98%;
+    right: 1%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 0px var(--color-black);
+}
+
+.main-logo{
+    height: 100%;
+    margin-left: 1%;
+}

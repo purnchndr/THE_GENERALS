@@ -1,0 +1,16 @@
+.footer-input-box{
+    border: none;
+    width: 70%;
+    height: 2rem;
+    padding: 1rem;
+    font-size: large;
+}
+
+.footer-input-box:active{
+    border: none;
+}
+.footer-submit-btn{
+    width: 20%;
+    height: 2rem;
+    padding-bottom: -10px;
+}

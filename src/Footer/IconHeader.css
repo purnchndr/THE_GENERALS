@@ -1,0 +1,51 @@
+.icon-card-container{
+    box-shadow: 0px 0px 10px -3px var(--color-black);
+    width: 100%;
+    padding: 0.7rem 0 0 0;
+}
+
+.icon-card{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+
+
+.icon-card-heading{
+
+    color: var(--color-back);
+    font-size: large;
+    
+}
+.icon-card-link{
+    text-decoration: none;
+    display: block;
+}
+
+.icon-card-link a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.icon-card-link a:hover{
+    text-decoration: underline;
+    color: var(--color-black);
+}
+
+.icon-card-content{
+    display: inline-block;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.icon-card-img img {
+    width: 3rem;
+}
+
+.hidden-text{
+    visibility: hidden;
+    line-height: 0;
+}

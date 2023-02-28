@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+
+.nav-links li a {
+    text-decoration: none;
+    color: var(--color-black);
+    font-family: 'Poppins', sans-serif;
+    /* transition: transform 250ms; */
+    transition: all 0.7;
+
+}
+
+.nav-links li a:hover{
+    text-decoration: underline;
+    color: #7DB9B6;
+}
+
+.nav-links li {
+    display: inline-block;
+    text-decoration: none;
+    color: #85586F;
+    padding: 0 0 01rem 2rem;
+
+}
+
+
+.nav-links{
+    list-style-type: none;
+    display: inline-block;
+    position:absolute; right:20px; top:0px; bottom: 10px;
+}
+
+@media screen and (max-width: 650px) {
+    .nav-links{
+        display: none;
+    }
+  }
